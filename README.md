@@ -1,4 +1,4 @@
-# Very short description of the package
+# Iran Cities for Laravel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/mahbodhastam/laravel-iran-cities.svg?style=flat-square)](https://packagist.org/packages/mahbodhastam/laravel-iran-cities)
 [![Total Downloads](https://img.shields.io/packagist/dt/mahbodhastam/laravel-iran-cities.svg?style=flat-square)](https://packagist.org/packages/mahbodhastam/laravel-iran-cities)
