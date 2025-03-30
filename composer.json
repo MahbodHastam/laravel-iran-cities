@@ -1,0 +1,55 @@
+{
+    "name": "mahbodhastam/laravel-iran-cities",
+    "description": "Iran provinces and cities.",
+    "version": "1.0.0",
+    "keywords": [
+        "MahbodHastam",
+        "laravel-iran-cities"
+    ],
+    "homepage": "https://github.com/mahbodhastam/laravel-iran-cities",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mahbod",
+            "email": "mahbod@riseup.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "cviebrock/eloquent-sluggable": "^12.0",
+        "illuminate/support": "^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.0",
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MahbodHastam\\LaravelIranCities\\": "src"
+        },
+        "files": ["src/helpers.php"],
+        "classmap": ["database/seeds"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MahbodHastam\\LaravelIranCities\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MahbodHastam\\LaravelIranCities\\LaravelIranCitiesServiceProvider"
+            ]
+        }
+    }
+}
